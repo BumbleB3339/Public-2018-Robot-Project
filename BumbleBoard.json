@@ -1,0 +1,738 @@
+{
+  "dividerPosition": 0.21513353115727002,
+  "tabPane": [
+    {
+      "title": "Hardware",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "SmartDashboard/Hardware",
+      "widgetPane": {
+        "gridSize": 32.0,
+        "showGrid": true,
+        "hgap": 1.0,
+        "vgap": 1.0,
+        "tiles": {
+          "0,8": {
+            "size": [
+              6,
+              6
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/Hardware/Pixy FRC Cube",
+              "_title": "Pixy FRC Cube"
+            }
+          },
+          "23,0": {
+            "size": [
+              6,
+              8
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/Hardware/Drive Encoders",
+              "_title": "Drive Encoders"
+            }
+          },
+          "18,0": {
+            "size": [
+              5,
+              7
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/Hardware/Cube Lift",
+              "_title": "Cube Lift"
+            }
+          },
+          "14,0": {
+            "size": [
+              4,
+              5
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/Hardware/NavX",
+              "_title": "NavX"
+            }
+          },
+          "24,8": {
+            "size": [
+              6,
+              8
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/Hardware/Drive Percent",
+              "_title": "Drive Percent"
+            }
+          },
+          "14,8": {
+            "size": [
+              5,
+              8
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/Hardware/Drive Vin",
+              "_title": "Drive Vin"
+            }
+          },
+          "19,8": {
+            "size": [
+              5,
+              8
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/Hardware/Drive Vout",
+              "_title": "Drive Vout"
+            }
+          },
+          "0,14": {
+            "size": [
+              9,
+              3
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Drive Mode",
+              "_title": "Drive Mode"
+            }
+          },
+          "6,9": {
+            "size": [
+              5,
+              5
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/Hardware/Intake",
+              "_title": "/SmartDashboard/Hardware/Intake"
+            }
+          },
+          "0,0": {
+            "size": [
+              12,
+              8
+            ],
+            "content": {
+              "_type": "PDP",
+              "_source0": "network_table:///SmartDashboard/Hardware/PDP",
+              "_title": "/SmartDashboard/Hardware/PDP",
+              "showIndicatorText": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Game",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "SmartDashboard/Game",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 1.0,
+        "vgap": 1.0,
+        "tiles": {
+          "10,4": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Game/Collect Height/First Level",
+              "_title": "SmartDashboard/Game/Collect Height/First Level"
+            }
+          },
+          "10,2": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Game/Collect Height/Second Level",
+              "_title": "SmartDashboard/Game/Collect Height/Second Level"
+            }
+          },
+          "10,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Game/Collect Height/Third Level",
+              "_title": "SmartDashboard/Game/Collect Height/Third Level"
+            }
+          },
+          "12,4": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Game/Scale Height/Low",
+              "_title": "SmartDashboard/Game/Scale Height/Low"
+            }
+          },
+          "12,2": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Game/Scale Height/High",
+              "_title": "SmartDashboard/Game/Scale Height/High"
+            }
+          },
+          "12,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Toggle Button",
+              "_source0": "network_table:///SmartDashboard/Game/Scale Height/Custom",
+              "_title": "SmartDashboard/Game/Scale Height/Custom"
+            }
+          },
+          "10,6": {
+            "size": [
+              4,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Game/Robot Mode",
+              "_title": "/SmartDashboard/Game/Robot Mode"
+            }
+          },
+          "7,3": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/Logic/CubeArm/Manual Arm",
+              "_title": "/SmartDashboard/Logic/CubeArm/Manual Arm",
+              "colorWhenTrue": "#7CFC00FF",
+              "colorWhenFalse": "#8B0000FF"
+            }
+          },
+          "7,0": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/Logic/CubeLift/Manual Lift",
+              "_title": "/SmartDashboard/Logic/CubeLift/Manual Lift",
+              "colorWhenTrue": "#7CFC00FF",
+              "colorWhenFalse": "#8B0000FF"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Autonomous",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 1.0,
+        "vgap": 1.0,
+        "tiles": {
+          "0,0": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Auto for CC",
+              "_title": "/SmartDashboard/Auto for CC"
+            }
+          },
+          "10,3": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Auto for CF",
+              "_title": "/SmartDashboard/Auto for CF"
+            }
+          },
+          "3,6": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Auto for Center",
+              "_title": "/SmartDashboard/Auto for Center"
+            }
+          },
+          "0,3": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Auto for FC",
+              "_title": "/SmartDashboard/Auto for FC"
+            }
+          },
+          "10,0": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Auto for FF",
+              "_title": "/SmartDashboard/Auto for FF"
+            }
+          },
+          "7,6": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Starting Pos",
+              "_title": "/SmartDashboard/Starting Pos"
+            }
+          },
+          "3,0": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Chosen \u0027Auto for CC\u0027",
+              "_title": "SmartDashboard/Chosen \u0027Auto for CC\u0027"
+            }
+          },
+          "7,3": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Chosen \u0027Auto for CF\u0027",
+              "_title": "SmartDashboard/Chosen \u0027Auto for CF\u0027"
+            }
+          },
+          "0,6": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Chosen \u0027Auto for Center\u0027",
+              "_title": "SmartDashboard/Chosen \u0027Auto for Center\u0027"
+            }
+          },
+          "3,3": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Chosen \u0027Auto for FC\u0027",
+              "_title": "SmartDashboard/Chosen \u0027Auto for FC\u0027"
+            }
+          },
+          "7,0": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Chosen \u0027Auto for FF\u0027",
+              "_title": "SmartDashboard/Chosen \u0027Auto for FF\u0027"
+            }
+          },
+          "10,6": {
+            "size": [
+              3,
+              2
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Chosen \u0027Starting Pos\u0027",
+              "_title": "SmartDashboard/Chosen \u0027Starting Pos\u0027"
+            }
+          },
+          "14,0": {
+            "size": [
+              2,
+              8
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/Autonomoous/Is game data read from FMS?",
+              "_title": "SmartDashboard/Autonomoous/Is game data read from FMS?",
+              "colorWhenTrue": "#7CFC00FF",
+              "colorWhenFalse": "#8B0000FF"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Calibration Cube Arm",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 1.0,
+        "vgap": 1.0,
+        "tiles": {
+          "0,2": {
+            "size": [
+              4,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Calibartion/Cube_Arm/kP",
+              "_title": "Cube Arm kP"
+            }
+          },
+          "1,4": {
+            "size": [
+              3,
+              3
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/Hardware/CubeArm/Potentiometer",
+              "_title": "Cube Arm Potentiometer"
+            }
+          },
+          "6,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Hardware/CubeArm/State",
+              "_title": "Cube Arm State"
+            }
+          },
+          "9,3": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/Hardware/CubeArm/onTarget",
+              "_title": "Is Cube On Target",
+              "colorWhenTrue": "#7CFC00FF",
+              "colorWhenFalse": "#8B0000FF"
+            }
+          },
+          "6,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Hardware/CubeArm/Power",
+              "_title": "Cube Arm Power"
+            }
+          },
+          "11,3": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///SmartDashboard/Logic/CubeArm/isPIDEnabled",
+              "_title": "isPIDEnabled",
+              "colorWhenTrue": "#7CFC00FF",
+              "colorWhenFalse": "#8B0000FF"
+            }
+          },
+          "10,0": {
+            "size": [
+              5,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Calibration/Calibration Mode Chooser",
+              "_title": "Calibration Mode Chooser"
+            }
+          },
+          "0,1": {
+            "size": [
+              4,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Calibration/Cube_Arm/BasePowerDown",
+              "_title": "Cube Arm Base Power Down"
+            }
+          },
+          "0,0": {
+            "size": [
+              4,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Calibration/Cube_Arm/BasePowerUp",
+              "_title": "Cube Arm Base Power Up"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Calibration MP",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 1.0,
+        "vgap": 1.0,
+        "tiles": {
+          "5,0": {
+            "size": [
+              5,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Calibration/Calibration Mode Chooser",
+              "_title": "/SmartDashboard/Calibration/Calibration Mode Chooser"
+            }
+          },
+          "6,3": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Calibration/MP/kD",
+              "_title": "/SmartDashboard/Calibration/MP/kD"
+            }
+          },
+          "6,2": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Calibration/MP/kP",
+              "_title": "/SmartDashboard/Calibration/MP/kP"
+            }
+          },
+          "1,2": {
+            "size": [
+              5,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Calibration/Motion Profiling Path Chooser",
+              "_title": "/SmartDashboard/Calibration/Motion Profiling Path Chooser"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Calibration RBD",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 1.0,
+        "vgap": 1.0,
+        "tiles": {
+          "8,3": {
+            "size": [
+              4,
+              3
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///SmartDashboard/Hardware/NavX",
+              "_title": "/SmartDashboard/Hardware/NavX"
+            }
+          },
+          "4,0": {
+            "size": [
+              5,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Calibration/Calibration Mode Chooser",
+              "_title": "/SmartDashboard/Calibration/Calibration Mode Chooser"
+            }
+          },
+          "8,2": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Calibration/RBD/AngleToRotate",
+              "_title": "/SmartDashboard/Calibration/RBD/AngleToRotate"
+            }
+          },
+          "2,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Calibration/RBD/kI",
+              "_title": "/SmartDashboard/Calibration/RBD/kI"
+            }
+          },
+          "2,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Calibration/RBD/kP",
+              "_title": "/SmartDashboard/Calibration/RBD/kP"
+            }
+          },
+          "2,4": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Calibration/RBD/kD",
+              "_title": "/SmartDashboard/Calibration/RBD/kD"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Calibration Lift",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 1.0,
+        "vgap": 1.0,
+        "tiles": {
+          "5,0": {
+            "size": [
+              5,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Calibration/Calibration Mode Chooser",
+              "_title": "/SmartDashboard/Calibration/Calibration Mode Chooser"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Calibration Climb",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 64.0,
+        "showGrid": true,
+        "hgap": 1.0,
+        "vgap": 1.0,
+        "tiles": {
+          "5,0": {
+            "size": [
+              4,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Calibration/Calibration Mode Chooser",
+              "_title": "/SmartDashboard/Calibration/Calibration Mode Chooser"
+            }
+          },
+          "6,4": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Calibration/Climb/ServoPosition",
+              "_title": "/SmartDashboard/Calibration/Climb/ServoPosition"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Game Data Source",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "tiles": {
+          "0,0": {
+            "size": [
+              2,
+              2
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Game Data Source",
+              "_title": "/SmartDashboard/Game Data Source"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
