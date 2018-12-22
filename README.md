@@ -4,8 +4,8 @@ The code is written in Java and uses WPILib's "Command based programming" design
 
 ## Key Features
 - State based operation of robot mechanisms.
-- Automatic alignment to POWER CUBES in both teleop and autonomous using Pixy.
-- Autonomous paths generation and following using custom algorithems and Jaci's Pathfinder.
+- Automatic alignment to POWER CUBES in both AUTONOMOUS and TELEOP using Pixy.
+- Autonomous paths are generated and executed using custom algorithems and Jaci's Pathfinder.
 
 ## Setup
 The project is compatible with Eclipse.
